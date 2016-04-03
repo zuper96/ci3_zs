@@ -67,7 +67,7 @@
 <body>
  
 <div id="container">
-    <h1>Selamat datang di CodeIgniter HMVC Modular Extension!</h1>
+    <h1>Selamat datang di CodeIgniter HMVC Modular Extension! via GITHUB</h1>
  
     <div id="body">
         <p>HMVC (Hirarki Models Views Controller)</p>
