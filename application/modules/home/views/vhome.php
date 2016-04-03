@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -81,7 +83,7 @@
         application/modules/home/controllers<br>
         application/modules/home/models<br>
         application/modules/home/views</code>
- 
+        <p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
         <p>Silahkan lihat artikel lain tentang CodeIgniter di blog saya <a href="http://fabernainggolan.net/CodeIgniter">fabernainggolan.net</a>.</p>
     </div>
  
